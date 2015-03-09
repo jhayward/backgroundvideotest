@@ -1,0 +1,8 @@
+{
+    "io.iclue.backgroundvideo": {
+        "source": {
+            "type": "registry",
+            "id": "io.iclue.backgroundvideo"
+        }
+    }
+}
