@@ -1,3 +1,6 @@
+
+var cordova = require('cordova');
+
 var backgroundvideo = {
     start : function(filename, camera, successFunction, errorFunction) {
     	camera = camera || 'back';
@@ -8,7 +11,5 @@ var backgroundvideo = {
     }
 };
 
-//module.exports = backgroundvideo;
-
-//todo:fixthis
+module.exports = backgroundvideo;
 window.Plugin.backgroundvideo = backgroundvideo;

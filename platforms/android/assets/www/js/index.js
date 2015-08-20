@@ -35,16 +35,6 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        // var vid = window.Plugin.backgroundvideo;
-        
-        // window.setTimeout(function() {
-        //     console.log('starting video');
-        //     vid.start('testVideo', 'front', app.yay, app.boo);
-        //     app.timer = window.setTimeout(function() {
-        //         console.log('timer finished - stopping video');
-        //         vid.stop(app.yay, app.boo);
-        //     }, 10000);
-        // }, 5000);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

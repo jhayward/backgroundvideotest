@@ -1,8 +1,11 @@
 {
     "io.iclue.backgroundvideo": {
         "source": {
-            "type": "registry",
-            "id": "io.iclue.backgroundvideo"
-        }
+            "type": "git",
+            "url": "https://github.com/jamesla/backgroundvideo",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

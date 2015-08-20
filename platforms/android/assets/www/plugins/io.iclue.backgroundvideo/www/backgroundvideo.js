@@ -1,4 +1,7 @@
-cordova.define("io.iclue.backgroundvideo.backgroundvideo", function(require, exports, module) { var backgroundvideo = {
+cordova.define("io.iclue.backgroundvideo.backgroundvideo", function(require, exports, module) { 
+var cordova = require('cordova');
+
+var backgroundvideo = {
     start : function(filename, camera, successFunction, errorFunction) {
     	camera = camera || 'back';
         cordova.exec(successFunction, errorFunction, "backgroundvideo","start", [filename, camera]);
@@ -8,8 +11,7 @@ cordova.define("io.iclue.backgroundvideo.backgroundvideo", function(require, exp
     }
 };
 
-//module.exports = backgroundvideo;
-
-//todo:fixthis
+module.exports = backgroundvideo;
 window.Plugin.backgroundvideo = backgroundvideo;
+
 });
